@@ -106,7 +106,7 @@
       background-color: rgba(0, 0, 0, 0.6);
     }
     .news-card:hover .news-card__title {
-      color: yellow;
+      color: #09C6AB;
     }
     .news-card:hover .news-card__image {
       transform: scale(1.2);
