@@ -25,7 +25,8 @@ function SendContactForm(FormType)
           startdate:$("#StartDate").val(),
           adult:$("#Adult").val(),
           // group:$("#Group").val(),
-          message:$("#message").val()
+          message:$("#message").val(),
+          website:"Kerala"
       };
        
       emailjs.send('service_67t7hhj', 'template_thv6rqb', templateParams,'nmhVg3RXzbcSkzs_u')
@@ -60,7 +61,8 @@ function SendContactForm(FormType)
           from_name: $("#fullnameC").val(),
           email_id: $("#mailIdC").val(),
           contact_no:$("#contactNoC").val(),
-          message:$("#messageC").val()
+          message:$("#messageC").val(),
+          website:"Kerala"
       };
        
       emailjs.send('service_67t7hhj', 'template_thv6rqb', templateParams,'nmhVg3RXzbcSkzs_u')
@@ -98,7 +100,8 @@ function SendContactForm(FormType)
           startdate:$("#StartDateBModal").val(),
           adult:$("#AdultBModal").val(),
           // group:$("#GroupBModal").val(),
-          message:$("#messageBModal").val()
+          message:$("#messageBModal").val(),
+          website:"Kerala"
       };
       //  console.log(templateParams);
       emailjs.send('service_67t7hhj', 'template_thv6rqb', templateParams,'nmhVg3RXzbcSkzs_u')
@@ -235,7 +238,8 @@ function myFunction() {
       startdate:$("#StartDatePKG").val(),
       adult:$("#AdultPKG").val(),
       // group:$("#GroupPKG").val(),
-      message:$("#messagePKG").val()
+      message:$("#messagePKG").val(),
+      website:"Kerala"
   };
    
   emailjs.send('service_67t7hhj', 'template_thv6rqb', templateParams,'nmhVg3RXzbcSkzs_u')
